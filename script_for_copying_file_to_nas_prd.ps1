@@ -61,5 +61,5 @@ if ($FileName -match "S01") {
 Get-PSDrive M, T | Remove-PSDrive
 
 # Remove files from source directory
-Get-ChildItem -Path E:\Downloads\\Media -Recurse -ErrorAction SilentlyContinue | Remove-Item -Force -Recurse
+Get-ChildItem -Path E:\Downloads\Media -Recurse -ErrorAction SilentlyContinue | Remove-Item -Force -Recurse
 Exit
